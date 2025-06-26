@@ -18,6 +18,8 @@ int main(){
   for(int i=1;i<=5;i++){
     if(a[i]==p){
       printf("a[%d] = %d",i,a[i]);
+    }else{
+      printf("%d not found in the array",p);
     }
   }
   return 0;
